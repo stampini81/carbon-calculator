@@ -2,6 +2,12 @@
 
 Aplicação web simples (HTML/CSS/JS puro) para estimar emissões de CO₂ por uma viagem entre cidades brasileiras, com preenchimento automático de distância (quando a rota existe), comparação entre modais e estimativa de créditos de carbono.
 
+## Documentação do desafio (PDF)
+
+Os materiais solicitados no desafio (fluxo/ciclo do bug, user stories, mind-map, casos de teste step-by-step e BDD) estão em:
+
+- [docs/README.md](docs/README.md)
+
 ## O que foi feito
 
 ### UI / Layout (HTML + CSS)
@@ -101,6 +107,21 @@ Acesse: `http://localhost:5500`
    - Resultado (rota, distância, emissão, transporte e economia)
    - Comparação entre modais (com barra)
    - Créditos de carbono e preço estimado
+
+## BDD (Cucumber em Java)
+
+Este repositório inclui um subprojeto com testes BDD usando **Cucumber + Java** (com Selenium) em `bdd-java/`.
+
+Para executar os cenários:
+
+```powershell
+Set-Location "C:\Users\Leandro\Desktop\carbon-calculator\bdd-java"
+mvn test
+```
+
+Observação: é necessário ter o **Maven** instalado e o comando `mvn` disponível no PATH.
+
+Veja detalhes e opções (Edge/headless/URL) em `bdd-java/README.md`.
 
 ## Observações
 - As distâncias são aproximadas e dependem das rotas cadastradas em `RoutesDB`.
