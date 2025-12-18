@@ -6,7 +6,7 @@ Aplicação web simples (HTML/CSS/JS puro) para estimar emissões de CO₂ por u
 
 Os materiais solicitados no desafio (fluxo/ciclo do bug, user stories, mind-map, casos de teste step-by-step e BDD) estão em:
 
-- [docs/README.md](docs/README.md)
+- [docs](docs)
 
 ## O que foi feito
 
